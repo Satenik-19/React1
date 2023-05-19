@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("header&menu.css");
+@import url("main.css");
+@import url("popup.css");
+
+:root {
+  --color: #eb0028;
+}
+
+html {
+  font-size: 16px !important;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 1400px;
+  height: 100%;
+  margin: auto;
+  padding: 0 48px;
+}
+.container-small {
+  max-width: 600px;
+  height: 100%;
+  margin: auto;
+}
